@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #555; */
+  background-color: #555;
+  color: rgb(242, 242, 242);
+}
+
+.contenedor {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.area-drag {
+  border: 2px dashed rgb(44, 182, 99);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  flex-grow: 1;
+  color: #555;
+}
+
+#contenedor-contenido-variables {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.area-contenido {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 30%;
+  max-height: 400px;
+  border: 2px dashed rgb(66, 148, 182);
+  padding: 10px;
+  overflow-y: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 1rem;
+  color: rgb(242, 242, 242);
+}
+
+p {
+  color: rgb(242, 242, 242);
+  white-space: pre-line;
+  height: 6%;
+}
+
+h2.title_content {
+  margin-top: 0;
+}
+
+#area-variables {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid rgb(242, 242, 242);
+}
+table th {
+  text-align: left;
+  background-color: rgb(44, 182, 99);
+}
+
+.terminales-th {
+  background-color: rgb(66, 148, 182);
+}
